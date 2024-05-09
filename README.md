@@ -1,7 +1,7 @@
 # Segmentation Model with Pre-trained MobileNet Encoder
 
 ## Introduction
-This repository contains code for training a segmentation model using a pre-trained MobileNet encoder on the ISIC 2016 dataset. The objective is to design a custom decoder that predicts segmented masks for the given dataset. The dataset consists of 900 training images with corresponding masks, and 379 test images with masks. 
+The objective is to design a custom decoder that predicts segmented masks for the given dataset. The dataset consists of 900 training images with corresponding masks, and 379 test images with masks. 
 
 ## Dataset Pre-processing and Custom Dataloader
 - The images are resized to 128x128 during pre-processing.
